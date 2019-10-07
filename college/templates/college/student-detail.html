@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Student detail</title>
+</head>
+
+<body>
+<center>
+<h1>Student Detail</h1>
+{% if std_list %}
+<ul>
+{% for s in std_list %}
+<li>{{ s.user.username }}</li>
+{% endfor %}
+{% endif%}
+</ul>
+    </center>
+</body>
+</html>

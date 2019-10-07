@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>all staff</title>
+</head>
+<body>
+<center>
+<h1>all staff</h1>
+{% if stf%}
+<ul>
+    {% for s in stf %}
+    <li>{{ s.user.username }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+</center>
+</body>
+</html>

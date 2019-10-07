@@ -1,0 +1,13 @@
+
+  wifi driver link :
+
+http://ubuntuhandbook.org/index.php/2018/08/no-wifi-adapter-found-hp-laptops-ubuntu-18-04/
+
+
+https://h30434.www3.hp.com/t5/Notebook-Wireless-and-Networking/Wifi-Drivers-for-Ubuntu-18-04/td-p/7040711
+
+
+
+django projects:  all projects in django from github
+
+https://github.com/topics/django-project
